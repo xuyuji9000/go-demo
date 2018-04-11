@@ -10,4 +10,4 @@ This is a go demo.
 
 - run test
 
-    `go run test`
+    `go test`
