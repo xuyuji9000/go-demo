@@ -1,3 +1,3 @@
 # Commands
 
-- run go script: `go run play.go`
+- run go script: `go run filename.go`
