@@ -5,8 +5,9 @@ import (
 )
 
 func main() {
-    scores := []int{1,4,293,4,9}
-    for index, element := range scores {
-        fmt.Printf("The %d indexed number's value is %d \n", index, element)
-    }
+    scores := make([]int, 0, 10)
+    fmt.Printf("length of socres: %d \n", len(scores))
+    scores = scores[0:8]
+    scores[7] = 1024
+    fmt.Println(scores)
 }
