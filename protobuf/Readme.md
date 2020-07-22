@@ -7,6 +7,8 @@ The goal of this document is to demonstrate how to use protobuf in golang.
 
 - Build go code: `go build main.go person.pb.go`
 
+- Add **protoc-gen-go** to dependency: `go install google.golang.org/protobuf/cmd/protoc-gen-go`
+
 
 # Reference
 
